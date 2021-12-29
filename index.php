@@ -1,3 +1,9 @@
+<?php
+
+include("mysqlconfig.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,23 +19,29 @@
     
             <div class="container">
                 <h2>Log in</h2>
-                <form action="login.php" method="POST">
+                <form action="main.php" method="POST">
                     <div class = "login-space">
-                        <label for="username">username</label>
-                        <br>
+                        <!-- <label for="username">username</label> -->
                         <img src="img/user2.png" alt="" width="5px">
-                        <input type="text" name="username" placeholder="type your username">
+                        <input type="text" name="username" placeholder="type your username" required>
                     </div>
                     <div class="login-space">
-                        <label for="password">password</label>
-                        <br>
+                        <!-- <label for="password">password</label> -->
                         <img src="img/unlock.png" alt="">
-                        <input type="password" name="password" id=""> 
+                        <input type="password" name="password" placeholder="type your password" required> 
                     </div>
                     <div class="login-space">
                         <button type="submit">LOG IN</button>
                     </div>
+
                 </form>
+                <table>
+                    <tr>
+                        <td><small><a href="#">forget password</a></small></td>
+                        <td><small><a href="#">sign up</a></small></td>
+                    </tr>
+                    
+                </table>
             </div>
         
         
