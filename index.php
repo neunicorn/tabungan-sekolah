@@ -1,9 +1,3 @@
-<!-- <?php
-
-include("mysqlconfig.php");
-
-?> -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +13,7 @@ include("mysqlconfig.php");
     
             <div class="container">
                 <h2>Log in</h2>
-                <form action="main.php" method="POST">
+                <form action="loginprocess.php" method="POST">
                     <div class = "login-space">
                         <!-- <label for="username">username</label> -->
                         <img src="img/user2.png" alt="" width="5px">
@@ -37,7 +31,7 @@ include("mysqlconfig.php");
                 </form>
                 <table>
                     <tr>
-                        <td><small><a href="#">forget password</a></small></td>
+                        <td><small><a href="#">forgot password</a></small></td>
                         <td><small><a href="#">sign up</a></small></td>
                     </tr>
                     
@@ -47,7 +41,7 @@ include("mysqlconfig.php");
         
     </main>
     <footer>
-
+        <p>&copy; nabungyuk2021</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
