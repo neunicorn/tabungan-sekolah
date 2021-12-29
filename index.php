@@ -1,8 +1,8 @@
-<?php
+<!-- <?php
 
 include("mysqlconfig.php");
 
-?>
+?> -->
 
 <!DOCTYPE html>
 <html lang="en">
