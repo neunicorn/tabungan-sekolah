@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel = "icon" href = "img/wallet.png" >
     <title>nabungyuk!</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
                     <div class = "login-space">
                         <label for="username">username</label>
                         <br>
-                        <img src="img/user2.png" alt="">
+                        <img src="img/user2.png" alt="" width="5px">
                         <input type="text" name="username" placeholder="type your username">
                     </div>
                     <div class="login-space">
