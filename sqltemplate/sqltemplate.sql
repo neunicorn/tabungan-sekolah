@@ -25,6 +25,7 @@ CREATE TABLE `transaksi`(
 
 CREATE TABLE `admin_sekolah`(
     `id` INT NOT NULL primary key AUTO_INCREMENT,
+    `nama` VARCHAR(50) NOT NULL,
     `uname` VARCHAR(255) NOT NULL,
     `passw` VARCHAR(255) NOT NULL
 );
