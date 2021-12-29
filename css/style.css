@@ -101,9 +101,35 @@ footer{
     bottom: 0;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    color: rgb(88, 88, 88);
+    color: rgb(43, 43, 43);
     text-align: center;
     font-weight: 500;
     font-size: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.error-message{
+    font-size: small;
+    text-align: center;
+    border-radius: 10px;
+    background: #f2dede;
+    color: #A94442;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: rgb(158, 158, 158);
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    line-height: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .closebtn:hover{
+      color: rgb(255, 0, 0);
+  }

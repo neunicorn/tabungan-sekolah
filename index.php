@@ -24,6 +24,16 @@
                         <img src="img/unlock.png" alt="">
                         <input type="password" name="password" placeholder="type your password" required> 
                     </div>
+                    <?php
+                        if(isset($_GET['error'])){
+                            ?>
+                                <div class="error-message">
+                                    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                                    <?php echo $_GET['error']; ?>
+                                </div>
+                            <?php
+                        }
+                    ?>
                     <div class="login-space">
                         <button type="submit">LOG IN</button>
                     </div>

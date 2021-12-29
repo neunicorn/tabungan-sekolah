@@ -15,10 +15,10 @@ $result = mysqli_query($conn, $querry);
 if(mysqli_num_rows($result) === 1){
     $row = mysqli_fetch_assoc($result);
     if($row['uname'] === $enc_username && $row['passw'] === $enc_password){
-        echo "You have logged in";
+        header("Location: main.php");
     }
 }else{
-    header("Location: index.php");
+    header("Location: index.php?error=incorrect username or password");
     exit();
 }
 
