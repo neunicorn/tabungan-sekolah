@@ -9,14 +9,35 @@
     <link rel = "icon" href = "img/wallet.png" >
 </head>
 <body>
-    <nav>
-        <ul>
-        <li><img src="img/wallet.png" alt=""></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">User</a></li>
-        <li><a href="#">Wallet</a></li>    
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <ul>
+            <li><img src="img/wallet.png" alt=""></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">User</a></li>
+            <li><a href="#">Wallet</a></li>    
+            </ul>
+        </nav>
+        <div class="top-bar">
+            <ul>
+                <li><img src="img/user2.png" alt="zulfan" width="25px" class="midle-of-container"/></li>
+                <li>Muhamad Zulfan</li>   
+            </ul>       
+        </div>    
+    </header>
+    <main>
+        <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur pariatur in assumenda totam amet cum recusandae excepturi ea vel quod quam, repellendus accusantium enim ad sunt id magni quia earum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur pariatur in assumenda totam amet cum recusandae excepturi ea vel quod quam, repellendus accusantium enim ad sunt id magni quia earum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur pariatur in assumenda totam amet cum recusandae excepturi ea vel quod quam, repellendus accusantium enim ad sunt id magni quia earum.</p>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur pariatur in assumenda totam amet cum recusandae excepturi ea vel quod quam, repellendus accusantium enim ad sunt id magni quia earum.</p>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    
     
 </body>
 </html>
