@@ -13,6 +13,16 @@
     
             <div class="container">
                 <h2>Log in</h2>
+                <?php
+                  if(isset($_GET['redirect'])){
+                      ?>
+                       <div class="error-message">
+                                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                                <?php echo $_GET['redirect']; ?>
+                        </div>
+                      <?php
+                  }
+                ?>
                 <form action="loginprocess.php" method="POST">
                     <div class = "login-space">
                         <!-- <label for="username">username</label> -->
