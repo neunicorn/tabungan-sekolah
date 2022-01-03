@@ -52,7 +52,7 @@
                 <table>
                     <tr>
                         <td><small><a href="#">forgot password</a></small></td>
-                        <td><small><a href="#">sign up</a></small></td>
+                        <td><small><a href="signup.php">sign up</a></small></td>
                     </tr>
                     
                 </table>
