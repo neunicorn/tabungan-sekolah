@@ -1,3 +1,13 @@
+<?php
+
+session_start();
+
+if(isset($_SESSION['nama_akun'])){
+    header("Location: main.php", true, 301);
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -52,7 +62,7 @@
                 <table>
                     <tr>
                         <td><small><a href="#">forgot password</a></small></td>
-                        <td><small><a href="signup.php">sign up</a></small></td>
+                        <td><small><a href="signup/signup.php">sign up</a></small></td>
                     </tr>
                     
                 </table>
