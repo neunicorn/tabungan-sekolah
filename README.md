@@ -2,6 +2,15 @@
 
 aplikasi php ini dibuat untuk memenuhi UAS sistem basis data uin jakarta syarif hidayatullah 2021.  
 
+**Author**  
+ - *name*       : Muhamad Zulfan Taqiyudin Baehaki  
+ - *contact*    : 
+                  email     : muhamad.zulfan20@mhs.uinjkt.ac.id  
+                  github    : https://github.com/neunicorn  
+                  linkedin  : https://www.linkedin.com/in/muhamadzulfan/  
+ - *version*    : 1.0
+
+
 **configurasi**  
   - untuk menggunakan aplikasi ini silakan untuk mengimport sqltemplate ke database kamu.  
   - setelah itu file file ini harus di taro di directory htdoc pada xampp  
