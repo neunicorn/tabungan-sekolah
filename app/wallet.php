@@ -3,10 +3,10 @@ session_start();
 
 if(isset($_SESSION['nama_akun'])){
 }else{
-    header("Location: index.php?redirect=silakan untuk login terlebih dahulu", true, 301);
+    header("Location: ../index.php?redirect=silakan untuk login terlebih dahulu", true, 301);
 }
 
-include("navbar-template.php");
+include("../navbar-template.php");
 ?>
     <main>
         <div class="container">

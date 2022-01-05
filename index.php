@@ -33,7 +33,7 @@ if(isset($_SESSION['nama_akun'])){
                       <?php
                   }
                 ?>
-                <form action="loginprocess.php" method="POST">
+                <form action="login/loginprocess.php" method="POST">
                     <div class = "login-space">
                         <!-- <label for="username">username</label> -->
                         <img src="img/user2.png" alt="" width="5px">

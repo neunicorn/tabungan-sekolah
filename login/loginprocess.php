@@ -18,10 +18,10 @@ if(mysqli_num_rows($result) === 1){
     $row = mysqli_fetch_assoc($result);
     if($row['uname'] === $enc_username && $row['passw'] === $enc_password){
         $_SESSION['nama_akun'] = $row['nama'];
-        header("Location: main.php?message=berhasil");
+        header("Location: ../app/main.php?message=berhasil");
     }
 }else{
-    header("Location: index.php?error=incorrect username or password");
+    header("Location: ../index.php?error=incorrect username or password");
     exit();
 }
 
