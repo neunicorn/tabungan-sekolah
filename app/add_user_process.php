@@ -11,7 +11,7 @@ $cursor = mysqli_query($conn, $querry);
 $check_nomor = mysqli_fetch_assoc($cursor);
 
 if(empty($check_nomor)){
-    $insert_siswa = "INSERT INTO siswa(nomor_siswa, nama, id_kelas) VALUES($nomor, '$nama', '$kelas')";
+    $insert_siswa = "INSERT INTO siswa(nomor_siswa, nama, id_kelas) VALUES('$nomor', '$nama', '$kelas')";
     $result_insert = mysqli_query($conn, $insert_siswa);
     
     $get_siswa = "SELECT MAX(id) as id from siswa";

@@ -9,27 +9,16 @@ if(isset($_SESSION['nama_akun'])){
 include("navbar-template.php");
 ?>
     <main>
-        <div class="container">
-        <table>
-            <tr>
-                <th>
-                    test
-                </th>
-                <th>
-                    test
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    ini isinya
-                </td>
-                <td>
-                    td ini siinya
-                </td>
-            </tr>
-        </table>
-        </div>
-        
+        <a href="olah_tabungan.php" style="text-decoration: none;">
+            <div class="container">
+                <p>nabung/ngambil</p>
+            </div>
+        </a>
+        <a href="show_tabungan.php" style="text-decoration: none;">
+            <div class="container">
+                <p>lihat tabungan</p>
+            </div>
+        </a>
     </main>
     <footer>
         <p>copyright &copy; nabungyuk2021</p>

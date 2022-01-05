@@ -30,7 +30,7 @@ include("navbar-template.php");
                     <input type="text" name="nama" placeholder="nama siswa" required>
                 </div>
                 <div>
-                <select name="kelas">
+                    <select name="kelas" required>
                         <option selected disabled value="">Pilih kelas</option>
                         <option value="1">A-1</option>
                         <option value="2">A-2</option>
@@ -39,7 +39,7 @@ include("navbar-template.php");
                     </select>
                 </div>
                 <div>
-                    <button>buat user</button>
+                    <button type="submit">buat user</button>
                 </div>
             </form>
         </div>

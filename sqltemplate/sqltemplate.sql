@@ -1,6 +1,6 @@
 CREATE TABLE `siswa`(
     `id` INT NOT NULL primary key AUTO_INCREMENT,
-    `nomor_siswa` INT NOT NULL UNIQUE,
+    `nomor_siswa` VARCHAR(255) NOT NULL UNIQUE,
     `nama` VARCHAR(255) NOT NULL,
     `id_kelas` INT NOT NULL
 );
