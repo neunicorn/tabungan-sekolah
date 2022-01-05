@@ -3,7 +3,7 @@
 session_start();
 
 if(isset($_SESSION['nama_akun'])){
-    header("Location: main.php", true, 301);
+    header("Location: app/main.php", true, 301);
 }
 ?>
 

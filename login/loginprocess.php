@@ -1,6 +1,6 @@
 <?php
 
-include("mysqlconfig.php");
+include("../mysqlconfig.php");
 
 session_start();
 
