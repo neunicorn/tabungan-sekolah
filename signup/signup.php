@@ -12,6 +12,18 @@
     <div class="container">
         <img src="../img/wallet.png" width="10%" alt="">
         <h2>SIGN UP</h2>
+        <?php
+                  if(isset($_GET['eror'])){
+                      ?>
+                       <div class="error-message">
+                                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                                <?php echo $_GET['eror']; ?>
+                        </div>
+                      <?php
+
+                      unset($_GET['eror']);
+                  }
+                ?>
         <form action="signup-process.php" method="POST">
             <div class="login-space">
                 <input type="text" name="nama" placeholder="type your name..." required>    
