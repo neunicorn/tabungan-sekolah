@@ -1,5 +1,6 @@
 CREATE TABLE `siswa`(
     `id` INT NOT NULL primary key AUTO_INCREMENT,
+    `nomor_siswa` INT NOT NULL UNIQUE,
     `nama` VARCHAR(255) NOT NULL,
     `id_kelas` INT NOT NULL
 );
@@ -20,7 +21,8 @@ CREATE TABLE `transaksi`(
     `id_tabungan` INT NOT NULL,
     `id_admin` INT NOT NULL,
     `nabung` INT NOT NULL,
-    `ngambil` INT NOT NULL
+    `ngambil` INT NOT NULL,
+    `tanggal` DATE NOT NULL CURRENT_TIMESTAMP
 );
 
 CREATE TABLE `admin_sekolah`(
